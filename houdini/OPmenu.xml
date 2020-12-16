@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuDocument>
+<menu>
+<scriptItem>
+<label>Network Copy</label>
+<!--<scriptPath>$HOME/scripts/first_script.py</scriptPath>-->
+<scriptCode><![CDATA[
+from nodeStore import main
+reload(main)
+]]>
+</scriptCode>
+</scriptItem>
+</menu>
+</menuDocument>
